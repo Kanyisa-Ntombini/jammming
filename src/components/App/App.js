@@ -1,13 +1,20 @@
-import style from './App.module.css';
-import SearchBar from '../SearchBar/SearchBar';
+import './App.css';
+import SearchBar from '../SearchBar/SearchBar.js';
 
 function App() {
   return (
-    <div className={style.App}>
-      <header className="App-header">
-        <h1>Jammming</h1>
-        <SearchBar />
+    <div className="App">
+      <header className="Header">
+        <h1>Header</h1>
       </header>
+
+      <main>
+        <SearchBar />
+      </main>
+
+      <footer className="Footer">
+        <div>&copy; 2024 K Ntombini</div>
+      </footer>
     </div>
   );
 }

@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.Header {
+  background-color: purple;
+}
+
+.Header h1 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.Footer div {
+  text-align: center;
+  color: purple;
+  font-weight: 600;
+}
