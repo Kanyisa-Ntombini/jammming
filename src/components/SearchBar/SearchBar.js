@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './SearchBar.css';
-import SearchResults from '../SearchResults/SearchResults';
-import filterSongData from '../../spotify_api.js';
+import SearchResults from '../SearchResults/SearchResults.js';
+import filterSongData from '../../spotifyApi/spotify_api.js';
 
 function SearchBar() {
   const [hasReceivedData, setHasReceivedData] = useState(false);
