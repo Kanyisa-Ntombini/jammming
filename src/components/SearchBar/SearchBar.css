@@ -1,0 +1,25 @@
+.SearchBar input {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  width: 15rem;
+  border: 0.15rem solid purple;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.SearchBar button {
+  display: block;
+  background-color: purple;
+  border: 0.1rem solid purple;
+  border-radius: 1rem;
+  color: white;
+  font-size: 1rem;
+  width: 5rem;
+  padding: 0.5rem;
+  margin: 1rem auto;
+}
+
+.SearchBar button:active {
+  font-size: 1.25rem;
+}
