@@ -12,7 +12,7 @@ function SearchBar() {
     searchSong = searchSong.value || '';
     const songs = filterSongData(searchSong);
 
-    if (songs) {
+    if (songs && searchSong) {
       setHasReceivedData(true);
       setSongTracks(songs);
     }
